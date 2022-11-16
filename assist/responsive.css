@@ -1,0 +1,32 @@
+
+@media screen and (max-width:1000px){
+
+    .main-sec .input-sec button{
+        width:15%;
+    }
+}
+@media screen and (max-width:568px){
+
+    .main-sec .input-sec button{
+        border-radius: 5px;
+        width: 20%;
+    }
+    .main-sec select{
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width:500px){
+    .main-sec select{
+        width: 63%;
+        border-radius: 9px;
+    }
+    .main-sec .input-sec button{
+        display: inherit;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width:400px){
+    .main-sec .input-sec button{
+        width: 35%;
+    }
+}

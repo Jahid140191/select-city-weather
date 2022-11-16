@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="assist/style.css">
+    <link rel="stylesheet" href="assist/responsive.css">
+</head>
+<body>
+    <div class="main-sec">
+        <p>Please Select The city:</p>
+        <div class="input-sec">
+            <select id="city" >
+                <option value="dhaka">Dhaka</option>
+                <option value="rajshahi">Rajshahi</option>
+                <option value="khulna">Khulna</option>
+                <option value="rongpur">Rongpur</option>
+            </select>
+            <button onclick="getResult()">Submit</button>
+        </div>
+        <div class="output-sec">
+           <p id="display"></p>
+        </div>
+    </div>
+
+    <script src="assist/weather.js"></script>
+</body>
+</html>
